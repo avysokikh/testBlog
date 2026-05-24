@@ -1,6 +1,6 @@
 {
   "require": {
     "smarty/smarty": "^5.8.0",
-    "php": "^8.1"
+    "php": "^8.4"
   }
 }
