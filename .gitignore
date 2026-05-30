@@ -1,5 +1,8 @@
 /vendor/
+/node_modules/
 .env
 /tmp/
 /.idea/
 /templates_c/
+/public/css/*.css
+/public/css/*.css.map

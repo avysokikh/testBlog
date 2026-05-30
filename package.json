@@ -1,0 +1,11 @@
+{
+  "name": "testblog",
+  "private": true,
+  "scripts": {
+    "sass:build": "sass assets/scss:public/css --style=expanded --no-source-map",
+    "sass:watch": "sass assets/scss:public/css --watch --style=expanded --source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
