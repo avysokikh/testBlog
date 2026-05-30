@@ -11,6 +11,8 @@ services:
         source: .
         target: /var/www/html
         consistency: cached
+    env_file:
+      - .env
     environment:
       MYSQL_HOST: mysql
       MYSQL_PORT: 3306
