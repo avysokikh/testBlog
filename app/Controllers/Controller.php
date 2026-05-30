@@ -10,6 +10,12 @@ class Controller
 {
     public function __construct(
         protected readonly View $view,
+        protected readonly ?\PDO $pdo = null
     ) {
+        $this->init();
+    }
+
+    protected function init()
+    {
     }
 }
