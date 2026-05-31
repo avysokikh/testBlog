@@ -28,17 +28,16 @@ final class CategoryRepository extends Repository
 
     /**
      * @param list<Category> $categories
-     *
-     * @return list<Category>
      */
-    public function loadArticles(array $categories): array
+    public function attachArticles(array $categories): void
     {
         if (empty($categories)) {
-            return [];
+            return;
         }
 
         $articleTable = Article::$table;
         $articlesPerCategory = self::ARTICLES_PER_CATEGORY;
+        $articlesRepository = new ArticleRepository($this->pdo);
 
         $categoryIds = array_map(fn(Category $category): int => $category->id, $categories);
         $placeholders = implode(',', array_fill(0, count($categoryIds), '?'));
@@ -66,9 +65,8 @@ final class CategoryRepository extends Repository
         }
 
         foreach ($categories as $category) {
+            $articlesRepository->attachCategories($articlesByCategory[$category->id]);
             $category->articles = $articlesByCategory[$category->id] ?? [];
         }
-
-        return $categories;
     }
 }

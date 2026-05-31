@@ -5,13 +5,12 @@ declare(strict_types=1);
 namespace App\Controllers;
 
 use App\Repository\ArticleRepository;
-use App\Repository\CategoryRepository;
 
 final class ArticleController extends Controller
 {
     private ArticleRepository $articleRepository;
 
-    protected function init()
+    protected function init(): void
     {
         $this->articleRepository = new ArticleRepository($this->pdo);
     }
@@ -24,6 +23,8 @@ final class ArticleController extends Controller
             $this->view->render('pages/404.tpl', ['page_title' => 'Страница не найдена']);
             return;
         }
+
+        $this->articleRepository->incrementViews($article);
 
         $this->articleRepository->attachCategories([$article]);
 

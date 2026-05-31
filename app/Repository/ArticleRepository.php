@@ -6,15 +6,18 @@ namespace App\Repository;
 
 use App\Models\Article;
 use App\Models\Category;
+use App\Models\Model;
 use PDO;
 
 final class ArticleRepository extends Repository
 {
+    protected string|Model|null $entityClass = Article::class;
+
     public function findById(int $id): ?Article
     {
         $stmt = $this->pdo->prepare(
-            'SELECT id, image, title, description, body, views, published_at
-             FROM articles WHERE id = :id LIMIT 1'
+            "SELECT id, image, title, description, body, views, published_at
+             FROM {$this->table} WHERE id = :id LIMIT 1"
         );
         $stmt->execute(['id' => $id]);
         $article = $stmt->fetch();
@@ -51,7 +54,7 @@ final class ArticleRepository extends Repository
 
         $sql = <<<SQL
             SELECT a.id, a.image, a.title, a.description, a.views, a.published_at
-            FROM articles a
+            FROM {$this->table} a
             INNER JOIN article_category ac ON ac.article_id = a.id
             WHERE ac.category_id = :category_id AND published_at <= NOW()
             ORDER BY $orderBy
@@ -68,6 +71,8 @@ final class ArticleRepository extends Repository
             $items[] = Article::fromRow($row);
         }
 
+        self::attachCategories($items);
+
         return [
             'items' => $items,
             'total' => $total,
@@ -83,13 +88,14 @@ final class ArticleRepository extends Repository
             return;
         }
 
+        $categoryTable = Category::$table;
         $ids = array_map('intval', array_column($articles, 'id'));
         $placeholders = implode(',', array_fill(0, count($ids), '?'));
 
         $sql = <<<SQL
             SELECT ac.article_id, c.*
             FROM article_category ac
-            INNER JOIN categories c ON c.id = ac.category_id
+            INNER JOIN {$categoryTable} c ON c.id = ac.category_id
             WHERE ac.article_id IN ($placeholders)
             ORDER BY c.name ASC
         SQL;
@@ -97,8 +103,8 @@ final class ArticleRepository extends Repository
         $stmt = $this->pdo->prepare($sql);
         $stmt->execute($ids);
         $rows = $stmt->fetchAll();
-        $grouped = [];
 
+        $grouped = [];
         foreach ($rows as $row) {
             $articleId = (int) $row['article_id'];
             $grouped[$articleId][] = $row;
@@ -111,6 +117,14 @@ final class ArticleRepository extends Repository
             }
         }
         unset($article);
+    }
+
+    public function incrementViews(Article $article): void
+    {
+        $stmt = $this->pdo->prepare("UPDATE {$this->table} SET views = views + 1 WHERE id = :id");
+        $stmt->execute(['id' => $article->id]);
+
+        $article->views++;
     }
 
     /** @return list<Article> */
@@ -127,7 +141,7 @@ final class ArticleRepository extends Repository
 
         $sql = <<<SQL
             SELECT DISTINCT a.id, a.image, a.title, a.description, a.views, a.published_at
-            FROM articles a
+            FROM {$this->table} a
             INNER JOIN article_category ac ON ac.article_id = a.id
             WHERE ac.category_id IN ($placeholders)
               AND a.id != ?
@@ -145,6 +159,8 @@ final class ArticleRepository extends Repository
         foreach ($stmt->fetchAll() as $row) {
             $items[] = Article::fromRow($row);
         }
+
+        self::attachCategories($items);
 
         return $items;
     }

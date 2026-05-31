@@ -33,15 +33,4 @@ final class Category extends Model
                 : null,
         );
     }
-
-    public function toArray(): array
-    {
-        return [
-            'id' => $this->id,
-            'name' => $this->name,
-            'description' => $this->description,
-            'slug' => $this->slug,
-            'created_at' => $this->createdAt?->format('Y-m-d H:i:s'),
-        ];
-    }
 }

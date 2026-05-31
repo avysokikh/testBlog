@@ -3,7 +3,7 @@
 {block name=content}
     <article class="article-full">
         {if $article->image}
-            <img class="article-full__image" src="{$app_url}{$article->image|escape}" alt="{$article->title|escape}">
+            <img class="article-full__image" src="{$article->image|escape}" alt="{$article->title|escape}">
         {/if}
 
         <header class="article-full__header">
@@ -13,6 +13,13 @@
                 <time datetime="{$article->publishedAt->format('d.m.Y')}">{$article->publishedAt->format('d.m.Y')}</time>
                 <span>{$article->views|escape} просмотров</span>
             </div>
+            {if $article->categories|@count > 0}
+                <div class="article-full__categories">
+                    {foreach $article->categories as $cat}
+                        <a class="tag" href="/category/{$cat->slug|escape}">{$cat->name|escape}</a>
+                    {/foreach}
+                </div>
+            {/if}
         </header>
 
         <div class="article-full__body">

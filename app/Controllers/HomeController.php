@@ -18,7 +18,7 @@ final class HomeController extends Controller
     public function index(): void
     {
         $categories = $this->categoryRepository->find();
-        $categories = $this->categoryRepository->loadArticles($categories);
+        $this->categoryRepository->attachArticles($categories);
 
         $this->view->render('pages/home.tpl', [
             'page_title' => 'Главная',
