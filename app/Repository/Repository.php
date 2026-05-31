@@ -37,10 +37,8 @@ class Repository
             return $rows;
         }
 
-        $entityClass = $this->entityClass;
-
         return array_map(
-            static fn (array $row): Model => $entityClass::fromRow($row),
+            fn(array $row): Model => $this->entityClass::fromRow($row),
             $rows
         );
     }

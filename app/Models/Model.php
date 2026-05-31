@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Models;
 
 abstract class Model
 {
-    public static abstract function fromRow(array $row): self;
+    abstract public static function fromRow(array $row): self;
 }

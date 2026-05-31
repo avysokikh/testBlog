@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace App;
 
+use App\Controllers\CategoryController;
 use App\Controllers\HomeController;
 use App\Controllers\NotFoundController;
 
@@ -28,6 +29,11 @@ final readonly class Router
         if ($path === '/') {
             new HomeController($view, $pdo)->index();
 
+            return;
+        }
+
+        if (preg_match('#^/category/([a-z0-9\-]+)$#', $path, $matches)) {
+            new CategoryController($view, $pdo)->show($matches[1]);
             return;
         }
 
