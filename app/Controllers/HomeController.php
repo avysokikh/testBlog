@@ -19,6 +19,10 @@ final class HomeController extends Controller
     {
         $categories = $this->categoryRepository->find();
         $this->categoryRepository->attachArticles($categories);
+        $categories = array_values(array_filter(
+            $categories,
+            static fn ($category): bool => $category->articles !== [],
+        ));
 
         $this->view->render('pages/home.tpl', [
             'page_title' => 'Главная',

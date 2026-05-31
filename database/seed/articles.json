@@ -1,0 +1,576 @@
+[
+  {
+    "title": "Прага за один день",
+    "description": "Карлов мост, Град и Старый город.",
+    "body": "<p>Однодневная прогулка по Праге — один из лучших способов познакомиться с европейской столицей, не распыляясь на лишние переезды. Начните утро у Карлова моста: с рассвета здесь особенно тихо, а статуи святых отбрасывают длинные тени на Влтаву. Поднимитесь к Пражскому Граду и зайдите в собор Святого Витта — его витражи и готический неф впечатляют даже тех, кто не любит музеи. Спустившись в Старый город, дойдите до Астрономических часов на Староместской площади и дождитесь бой курантов в полном час. По пути загляните в узкие переулки за традиционным чешским обедом и местным пивом. К вечеру вернитесь на набережную и посмотрите на подсвеченный мост с противоположного берега — вид, ради которого сюда едут со всей Европы.</p>",
+    "image": "/uploads/prague.jpg",
+    "views": 108,
+    "published_at": "2025-01-08 09:00:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Лиссабon на трамвае 28",
+    "description": "Холмы, azulejo и пастéis de nata.",
+    "body": "<p>Лиссабон удобнее всего исследовать на легендарном трамвае 28, который петляет по холмам и старым кварталам европейской столицы. Маршрут проходит через район Alfama с его узкими улочками, белыми домами и azulejo на фасадах. Сойдите у монастыря Жеронимуш в Belém и попробуйте знаменитые пастéis de nata в одной из местных кондитерских. Поднимитесь на miradouro da Senhora do Monte — отсюда открывается панорама города, реки и моста. Вечером вернитесь в Alfama послушать фado в небольшом ресторанчике. Такой маршрут сочетает историю, гастрономию и живую атмосферу Португалии в одном дне.</p>",
+    "image": "/uploads/lisbon.jpg",
+    "views": 137,
+    "published_at": "2025-01-15 10:30:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Рим: Колизей и Треви",
+    "description": "Классический маршрут по Вечному городу.",
+    "body": "<p>Классический римский маршрут начинается у Колизея — главного символа древней империи и обязательной точки любого европейского путешествия. Забронируйте билет с доступом к арене и подземным помещениям, чтобы не стоять в очереди под солнцем. Отсюда пройдите к Римскому форуму и Палатину, где когда-то решались судьбы половины известного мира. После обеда направлятесь к фонтану Треви: по традиции бросьте монетку и загляните в соседние улочки за gelato. Завершите день прогулкой через Piazza Navona и Pantheon — вечером камень старого города кажется особенно тёплым. Такой маршрут позволяет за один день почувствовать дух Вечного города.</p>",
+    "image": "/uploads/rome.jpg",
+    "views": 166,
+    "published_at": "2025-01-22 11:00:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Париж за выходные",
+    "description": "Лувр, Монмартр и прогулка по Сене.",
+    "body": "<p>Два дня в Париже — короткий срок, но достаточный, чтобы увидеть главное в одной из красивейших европейских столиц. В первый день зайдите в Лувр хотя бы на несколько часов и обязательно выделите время на прогулку по Сене от Pont Neuf до Notre-Dame. На второй день поднимитесь на Монмартр к Sacré-Cœur и пройдитесь по Place du Tertre с художниками. Билеты в музеи и на аттракционы лучше покупать онлайн заранее — очереди в выходные могут занять полдня. Не пропустите кruassan и кофе в одной из парижских boulangeries — это часть местной культуры не меньше, чем Эйфелева башня. Вечером прогуляйтесь вдоль набережной — огни города отражаются в воде особенно красиво.</p>",
+    "image": "/uploads/paris.jpg",
+    "views": 195,
+    "published_at": "2025-01-29 08:45:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Вена: музыка и кофе",
+    "description": "Шёнбрунн и венские кофейни.",
+    "body": "<p>Вена — город, где европейская история, музыка и кофейная культура переплетаются на каждом шагу. Начните день с посещения дворца Шёнбрунн: прогулка по парку и imperial apartments займёт не меньше трёх часов. После обеда загляните в одну из классических венских кофеен — Café Central или Demel — за Sachertorte и melange. Вечером купите билет на концерт: в городе Моцарта и Strauss даже туристические программы звучат на высоком уровне. Пройдитесь по Ringstraße и загляните в собор Святого Стефана. Такой маршрут показывает Вену не только как музей под открытым небом, но и как живой европейский город с особым ритмом.</p>",
+    "image": "/uploads/vienna.jpg",
+    "views": 224,
+    "published_at": "2025-02-05 14:00:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Амsterdam по каналам",
+    "description": "Лодки, музеи и велосипеды.",
+    "body": "<p>Амsterdam лучше всего раскрывается с воды и с седла велосипеда — так устроена эта европейская столица каналов. Утром отправьтесь на часовую прогулку по grachten: капитан расскажет, почемu дома здесь такие узкие и наклонённые. Днём посетите Rijksmuseum или Van Gogh Museum — оба требуют предварительной брони. Пройдитесь по Jordaan с его галереями, антикварными лавками и уютными кафе. Весной город особенно красив: цветут тюльпаны, а вдоль каналов зеленеют велосипеды на каждом мосту. Вечером сядьте на террасу у воды — атмосфера Амsterdamа неповторима в любое время года.</p>",
+    "image": "/uploads/amsterdam.jpg",
+    "views": 253,
+    "published_at": "2025-02-12 16:20:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Budapest: термы и парламент",
+    "description": "Купальни Széchenyi и прогулка по Дунаю.",
+    "body": "<p>Будапешт — одна из самых эффектных европейских столиц, где архитектура империи соседствует с купальнями и набережной Дуная. Утром поднимитесь к Bastion и Matthias Church на холме Буда — отсюда виден весь город. Спуститесь к парламенту на Pest и прогуляйтесь вдоль набережной к Shoes on the Danube. После обеда отправляйтесь в купальни Széchenyi: термальная вода и дворецовая архитектура создают необычный опыт. Вечером круиз по Дунаю покажет подсвеченный Chain Bridge и парламент с воды. Такой маршрут сочетает историю, релакс и лучшие виды европейского Будапешта.</p>",
+    "image": "/uploads/budapest.jpg",
+    "views": 282,
+    "published_at": "2025-02-19 07:30:00",
+    "categories": [
+      "europe"
+    ]
+  },
+  {
+    "title": "Edinburgh и Highlands",
+    "description": "Замок, Royal Mile и горы Шотlandии.",
+    "body": "<p>Эдинбург — идеальная отправная точка для знакомства с Шотlandией и европейским севером. Начните с Edinburgh Castle на Castle Rock и пройдите вниз по Royal Mile до Holyrood Palace. Вечером поднимитесь на Arthur's Seat — кратер потухшего вулкана с панорамой города. На второй день арендуйте авто и выезжайте в Highlands: озёра, овцы на дороге и суровые горные пейзажи. Если попадаете на Edinburgh Festival Fringe, бронируйте жильё за несколько месяцев — город переполняется. Такой маршрут соединяет городскую историю и дикую природу в одном путешествии.</p>",
+    "image": "/uploads/edinburgh.jpg",
+    "views": 311,
+    "published_at": "2025-02-26 12:15:00",
+    "categories": [
+      "europe",
+      "nature"
+    ]
+  },
+  {
+    "title": "Santorini на закате",
+    "description": "Белые домики и кальдера Эgeя.",
+    "body": "<p>Сantorini — жемчужина греческих островов и классика европейского пляжного отдыха с потрясающими видами. Остановитесь в Oia или Fira — белые домики, синие купола и кальдера Эgeя создают открытку, которую узнают во всём мире. Закат в Oia собирает толпы, поэтому приходите на miradouro за час до солнца. Днём съездите на чёрный пляж Kamari или Red Beach — контраст лавы и бирюзовой воды впечатляет. Попробуйте местное вино assyrtiko и свежие морепродукты в таверне у края скалы. Santorini дорогой, но один закат здесь оправдывает поездку.</p>",
+    "image": "/uploads/santorini.jpg",
+    "views": 340,
+    "published_at": "2025-03-05 09:40:00",
+    "categories": [
+      "europe",
+      "beach"
+    ]
+  },
+  {
+    "title": "Barcelona и Gaudí",
+    "description": "Sagrada Família и Barceloneta.",
+    "body": "<p>Barcelona — город, где каталонская культура, море и архитектура Gaudí образуют неповторимый европейский микс. Начните с Sagrada Família: даже стройка не мешает понять масштаб замысла архитектора. Билеты покупайте онлайн с указанием времени входа — без этого очередь может занять полдня. Пройдите по Passeig de Gràcia мимо Casa Batlló и Casa Milà, затем спуститесь к Barceloneta для купания и tapas. Вечером прогуляйтесь по Gothic Quarter — узкие улочки здесь живут своей жизнью независимо от сезона. Barcelona сочетает пляж, искусство и гастрономию лучше многих европейских столиц.</p>",
+    "image": "/uploads/barcelona.jpg",
+    "views": 369,
+    "published_at": "2025-03-12 18:00:00",
+    "categories": [
+      "europe",
+      "beach"
+    ]
+  },
+  {
+    "title": "Kyoto: храмы и сады",
+    "description": "Fushimi Inari, бамбук и чай.",
+    "body": "<p>Kyoto — душа традиционной Японии и must-see для любого маршрута по Азии. Начните рассвет на Fushimi Inari: тысячи красных torii ещё пусты, а свет мягкий и золотистый. Затем отправляйтесь в Arashiyama — бambukовая роща и храм Tenryu-ji особенно красивы утром. После обеда пройдите через Gion — здесь можно увидеть geiko, если повезёт и вы соблюдаете этикет. Завершите день чайной церемонией в одном из садов. Kyoto требует уважения к тишине и расписанию храмов — приходите к открытию, и город откроется без толп.</p>",
+    "image": "/uploads/kyoto.jpg",
+    "views": 138,
+    "published_at": "2025-01-08 09:00:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Hanoi и залив Ha Long",
+    "description": "Старый квартal, pho и известняковые скалы.",
+    "body": "<p>Ханой — шумная, вкусная и аутентичная столица Вьетнама, с которой удобно начать путешествие по Азии. Старый квартал лучше исследовать пешком: каждая улица здесь специализируется на своём блюде, от pho до egg coffee. Утром прогуляйтесь вокруг Hoan Kiem Lake, днём загляните в Temple of Literature. На второй-третий день отправляйтесь на залив Ha Long: известняковые скалы из воды — один из символов региона. Заложите хотя бы одну ночь на корабле или в bungalo, чтобы увидеть залив на рассвете. Такой маршрут сочетает городскую кухню и природу Юго-Восточной Азии.</p>",
+    "image": "/uploads/hanoi.jpg",
+    "views": 167,
+    "published_at": "2025-01-15 10:30:00",
+    "categories": [
+      "asia",
+      "nature"
+    ]
+  },
+  {
+    "title": "Singapore за 48 часов",
+    "description": "Marina Bay и hawker centres.",
+    "body": "<p>Singapore за два дня — наглядный пример того, как Азия сочетает футуризм, природу и строгий порядок. Первый день посвятите Marina Bay: Gardens by the Bay, Cloud Forest и вечернее шоу у Super trees. Вечером прогуляйтесь по набережной — skyline отражается в воде, как в рекламе. На второй день исследуйте этнические кварталы: Chinatown, Little India и Kampong Glam. Обязательно пообедайте в hawker centre — Lau Pa Sat или Maxwell — это лучший способ попробовать местную кухню недорого. Город компактный, метро чистое и понятное — передвигаться легко даже впервые.</p>",
+    "image": "/uploads/singapore.jpg",
+    "views": 196,
+    "published_at": "2025-01-22 11:00:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Seoul: дворцы и K-pop",
+    "description": "Gyeongbokgung и Hongdae.",
+    "body": "<p>Seoul — город контрастов, где древние дворцы и K-pop соседствуют в одном азиатском мегаполисе. Утром посетите Gyeongbokgung в hanbok — вход бесплатный, а фото получаются особенно атмосferными. После обеда пройдитесь по Bukchon Hanok Village с традиционными домами между небоскрёbами. Вечером отправляйтесь в Hongdae или Gangnam — уличные выступления, магазины и кафе работают допоздна. Попробуйте Korean BBQ и street food на рынке Gwangjang. Seoul показывает, как Азия одновременно хранит традиции и задаёт мировые тренды.</p>",
+    "image": "/uploads/seoul.jpg",
+    "views": 225,
+    "published_at": "2025-01-29 08:45:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Taj Mahal на рассвете",
+    "description": "Мавзolей и Красный форт.",
+    "body": "<p>Taj Mahal — главная жемчужина Индии и одно из самых узнаваемых мест Азии. Приходите к открытию ворот: утренний свет мягкий, мрамор кажется розовым, а очереди ещё короткие. После осмотra мавзолея прогуляйтесь по саду и посмотрите на отражение в канале — классический ракурс для фото. В Агре обязательно загляните в Agra Fort — Красный форт с видом на Taj с другого берега Yamuna. Бронируйте билеты онлайн и берите паспорт — без него не пустят. Такое путешествие требует раннего подъёма, но рассвет у Taj стоит каждой минуты.</p>",
+    "image": "/uploads/taj-mahal.jpg",
+    "views": 254,
+    "published_at": "2025-02-05 14:00:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Hong Kong: пик и бухта",
+    "description": "Victoria Peak и dim sum.",
+    "body": "<p>Hong Kong — вертикальный мегаполис Азии, где горы, небоскрёбы и гавань создают один из лучших городских пейзажей мира. Поднимитесь на Victoria Peak на трамвайчике Peak Tram — вид на бухту и острова лучше всего на закате. Днём прогуляйтесь по Central и Soho, вечером отправляйтесь на Temple Street Night Market. Dim sum в YUM CHA или Tim Ho Wan — обязательная часть программы. Закат превращает город в море огней: небоскрёбы, суда и огни отражаются в воде Victoria Harbour. Hong Kong интенсивный, но за два-три дня можно увидеть его с лучших ракурсов.</p>",
+    "image": "/uploads/hong-kong.jpg",
+    "views": 283,
+    "published_at": "2025-02-12 16:20:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Taipei: ночные рынки",
+    "description": "Taipei 101 и Shilin Market.",
+    "body": "<p>Taipei — доступный и дружелюбный ворота в Азию с отличной едой и ночной жизнью. Начните с Taipei 101 — смотровая на 89-м этаже показывает, как город растёт вокруг гор. Вечером идите на Shilin Night Market: здесь можно есть часами — от stinky tofu до bubble tea на родине напитка. Днём посетите National Palace Museum — одна из лучших коллекций китайского искусства в мире. Прогулка по Da'an Forest Park и соседним кофейням покажет спокойную сторону города. Taipei удобен для самостоятельного путешествия: метро понятное, люди приветливые, цены умеренные.</p>",
+    "image": "/uploads/taipei.jpg",
+    "views": 312,
+    "published_at": "2025-02-19 07:30:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Bali: Ubud и океан",
+    "description": "Рисовые террасы, храмы и серфинг.",
+    "body": "<p>Bali — остров, где азиатская духовность, рисовые террасы и океан собраны на небольшой территории. Ubud — культурное сердце: храмы, танцы kecak, мастерские и рынок с сувенирами. Утром посетите Tegallalang — знаменитые рисовые террасы лучше видны до полудня. На юге — пляжи Seminyak и Uluwatu: серфинг, cliff bars и закат у храма на скале. Между Ubud и побережьем закладывайте время на пробки — они здесь часть реальности. Bali сочетает природу, пляж и духовность — редкий микс для Азии.</p>",
+    "image": "/uploads/bali.jpg",
+    "views": 341,
+    "published_at": "2025-02-26 12:15:00",
+    "categories": [
+      "asia",
+      "nature",
+      "beach"
+    ]
+  },
+  {
+    "title": "Tokyo: Shibuya и Asakusa",
+    "description": "Neon, sushi и Senso-ji.",
+    "body": "<p>Tokyo — столица, где неон Shibuya и древний Senso-ji соседствуют в одном азиатском мегаполисе. Начните утро в Asakusa: храм Senso-ji, улица Nakamise и меньше туристов, чем днём. Затем пересеките город на метро — Suica или Pasmo card сильно упрощают жизнь. Днём Shibuya Crossing и Hachiko — must-see для первого визита. Вечером попробуйте sushi в одном из counter-бars в Ginza или Shinjuku. Tokyo огромный, но районы компактные — лучше выбрать 2–3 и исследовать их глубоко, а не метаться по всему городу.</p>",
+    "image": "/uploads/tokyo.jpg",
+    "views": 370,
+    "published_at": "2025-03-05 09:40:00",
+    "categories": [
+      "asia"
+    ]
+  },
+  {
+    "title": "Phuket и Phi Phi",
+    "description": "Пляжи Андаmanского моря.",
+    "body": "<p>Phuket — главный пляжный hub Таиланда и удобная база для островов Андаmanского моря. На самом Phuket загляните на Big Buddha и старый Phuket Town с китайской архитектурой. Основная цель — однодневная поездка на Phi Phi: бирюзовая вода, скалы и знаменитая Maya Bay. Выезжайте рано утром, чтобы избежать толп и жары — лодки возвращаются к обеду. Не забудьте reef-safe sunscreen и лёгкую одежду для посещения храмов. Такой маршрут — классика пляжного отдыха в Азии с акцентом на море и острова.</p>",
+    "image": "/uploads/phuket.jpg",
+    "views": 399,
+    "published_at": "2025-03-12 18:00:00",
+    "categories": [
+      "asia",
+      "beach"
+    ]
+  },
+  {
+    "title": "New York City за 3 дня",
+    "description": "Manhattan и Brooklyn Bridge.",
+    "body": "<p>Три дня в Нью-Йорке — минимум, чтобы почувствовать ритм одного из главных городов Америки. Первый день — Manhattan: Central Park, Times Square и Broadway вечером. Второй — Brooklyn Bridge на рассвете, DUMBO и Williamsburg с кофе и street art. Третий — музей: MET, MoMA или Natural History — выберите один и не пытайтесь объять необъятное. MetroCard или OMNY упрощают перемещения; пешком Manhattan тоже проходим. Нью-Йорк шумный, быстрый и дорогой, но энергия города заразительна с первых минут.</p>",
+    "image": "/uploads/nyc.jpg",
+    "views": 168,
+    "published_at": "2025-01-08 09:00:00",
+    "categories": [
+      "americas"
+    ]
+  },
+  {
+    "title": "San Francisco и Golden Gate",
+    "description": "Мост, Alcatraz и туман.",
+    "body": "<p>San Francisco — один из самых живописных городов Америки, где мост, холмы и туман создают узнаваемый силуэт. Начните с Golden Gate Bridge: Battery Spencer или Crissy Field — лучшие точки для фото. Забронируйте Alcatraz заранее — билеты разбирают за недели. Пройдитесь по Fisherman's Wharf, но не задерживайтесь — лучше отправиться в Mission District за tacos и murals. Одевайтесь слоями: туман может накрыть город в любой момент, даже летом. San Francisco компактный — многие точки доступны на foot или cable car.</p>",
+    "image": "/uploads/san-francisco.jpg",
+    "views": 197,
+    "published_at": "2025-01-15 10:30:00",
+    "categories": [
+      "americas"
+    ]
+  },
+  {
+    "title": "Toronto и Niagara Falls",
+    "description": "CN Tower и водопад.",
+    "body": "<p>Toronto — мультикультурная столица Канады и удобная база для поездки к одному из главных природных чудес Америки. Поднимитесь на CN Tower — стеклянный пол на высоте не для слабонервных. Прогуляйтесь по Distillery District и набережной озера Ontario. На отдельный день заложите Niagara Falls: автобус или аренда авто, оба берега заслуживают внимания. С канадской стороны Horseshoe Falls ближе и мощнее. Летом бронируйте отели заранее — это один из самых популярных маршрутов в Северной Америке.</p>",
+    "image": "/uploads/toronto.jpg",
+    "views": 226,
+    "published_at": "2025-01-22 11:00:00",
+    "categories": [
+      "americas",
+      "nature"
+    ]
+  },
+  {
+    "title": "Rio de Janeiro",
+    "description": "Copacabana и Cristo Redentor.",
+    "body": "<p>Rio — город, где пляж, карнавал и горы определяют ритм жизни в Latin America. Copacabana и Ipanema — классика: солнце, футбол на песке и caipirinha у моря. Cristo Redentor на Corcovado лучше посещать рано утром или на закате — меньше толп и лучше свет. Sugarloaf Mountain покажет бухту с другого ракурса — двухканатная дорога сама по себе аттракцион. Не носите украшения и телефон на виду в толпе — базовая предосторожность. Rio оставляет яркое впечатление даже у тех, кто не любит большие города.</p>",
+    "image": "/uploads/rio.jpg",
+    "views": 255,
+    "published_at": "2025-01-29 08:45:00",
+    "categories": [
+      "americas",
+      "beach"
+    ]
+  },
+  {
+    "title": "Havana: старый город",
+    "description": "Salsa и classic cars.",
+    "body": "<p>Гavana — город, где время замедлилось, а старые автомobiles и salsa создают атмосferу, которую не найти больше нигде в Аmerике. Old Havana — UNESCO heritage: площади, крепости и колониальная архитектура требуют минимум день на прогулку. Вечером идите на Malecón — местные собираются у моря с музыкой и разговорами. Попробуйте mojito там, где играет live band, а не в туристической ловушке на первой линии. Classic cars можно арендовать для часовой экскурсии — дорого, но атмосferно. Havana требует терпения и наличных, но награждает аутентичностью.</p>",
+    "image": "/uploads/havana.jpg",
+    "views": 284,
+    "published_at": "2025-02-05 14:00:00",
+    "categories": [
+      "americas"
+    ]
+  },
+  {
+    "title": "Miami Beach и Art Deco",
+    "description": "South Beach и Wynwood Walls.",
+    "body": "<p>Miami — яркий город Америки, где пляж, архитектура и street art соседствуют на одной полоске land между океаном и заливом. South Beach и Ocean Drive — epicenter Art Deco: пастельные фасады, неон и люди на роликах. Wynwood Walls — open-air галерея с murals мирового уровня, лучше утром до жары. На пляже SPF обязателен круглый год — солнце здесь агрессивное. Вечером Little Havana за cuban food и live music. Miami дорогой и шумный, но за weekend можно увидеть его лучшие стороны.</p>",
+    "image": "/uploads/miami.jpg",
+    "views": 313,
+    "published_at": "2025-02-12 16:20:00",
+    "categories": [
+      "americas"
+    ]
+  },
+  {
+    "title": "Cancún и cenotes",
+    "description": "Caribbean sea и подземные реки.",
+    "body": "<p>Cancún — ворота к Caribbean sea и уникальной природе Yucatán в Latin America. Отельная zona с белым песком подходит для релакса, но настоящая магия — cenotes: подземные реки и природные бассейны в джungle. Арендуйте авто или возьмите tour к Ik Kil, Dos Ojos или Gran Cenote — каждый свой характер. Не забудьте mask для snorkeling и воду — в cenotes прохладно даже летом. На один день можно съездить к Chichen Itza — одно из Seven Wonders рядом. Cancún сочетает пляж, природу и историю майя в одном маршруте.</p>",
+    "image": "/uploads/cancun.jpg",
+    "views": 342,
+    "published_at": "2025-02-19 07:30:00",
+    "categories": [
+      "americas",
+      "nature",
+      "beach"
+    ]
+  },
+  {
+    "title": "Hawaii: остров Oahu",
+    "description": "Waikiki и Diamond Head.",
+    "body": "<p>Oahu — самый посещаемый остров Hawaii и хороший выбор для первого знакомства с Аmerикой в Тихом океане. Waikiki — классика: серф для новичков, закаты и отели на первой линии. Подъём на Diamond Head утром — вид на бухту и город стоит пота. North Shore зимой — мировая mecca серфинга с волнами, которым лучше любоваться с берега. Pearl Harbor требует полдня и брони — историческая часть программы. Один остров за поездку — разумная стратегия: Hawaii большой, переезды отнимают время.</p>",
+    "image": "/uploads/hawaii.jpg",
+    "views": 371,
+    "published_at": "2025-02-26 12:15:00",
+    "categories": [
+      "americas"
+    ]
+  },
+  {
+    "title": "Machu Picchu",
+    "description": "Inca trail и Sacred Valley.",
+    "body": "<p>Machu Picchu — вершина любого путешествия по Южной Аmerике и место, которое оправдывает долгую дорогu. Большинство начинает из Cusco — acclimatization обязательна из-за высоты. Билеты на citadel и поезд до Aguas Calientes бронируйте за месяцы — лимиты строгие. Поднимайтесь к руинам на первый автobus утром — туман рассеивается, а людей меньше. Inca trail для подготовленных, но даже без трекa вид с Sun Gate незабываем. Sacred Valley стоит посетить до или после — меньше высота, больше контекста.</p>",
+    "image": "/uploads/machu-picchu.jpg",
+    "views": 400,
+    "published_at": "2025-03-05 09:40:00",
+    "categories": [
+      "americas",
+      "nature"
+    ]
+  },
+  {
+    "title": "Patagonia: Torres del Paine",
+    "description": "Ледники и треккинг.",
+    "body": "<p>Patagonia — край света в Южной Аmerике, где ледники, ветер и горы создают суровый и прекрасный ландшафт. Torres del Paine National Park — главная цель: W-trek или более длинный circuit проходят мимо знаменитых granite towers. Refugios и camps бронируйте за полгода — сезон короткий, мест мало. Сильный ветер и резкая смена погоды — норма, слои одежды обязательны. Для менее подготовленных есть day hikes к Mirador Base de las Torres. Patagonia требует времени и физической формы, но награждает одними из лучших видов на планете.</p>",
+    "image": "/uploads/patagonia.jpg",
+    "views": 429,
+    "published_at": "2025-03-12 18:00:00",
+    "categories": [
+      "americas"
+    ]
+  },
+  {
+    "title": "Norwegian fjords",
+    "description": "Geiranger и Bergen–Flåm.",
+    "body": "<p>Норвежские фьорды — эталон дикой природы Европы, где горы обрываются прямо в море. Geirangerfjord — UNESCO site с водопадами Seven Sisters и Suitor. Поезд Bergen–Flåm — один из самых красивых rail journeys в мире, бронируйте места заранее. Летом popular, но early morning cruises менее crowded. Кayaking по фjordu даёт другой масштаб — вода зеркальная, скалы гigантские. Норвегия дорогая, но фьordы — причина, по которой сюда возвращаются снова.</p>",
+    "image": "/uploads/norwegian-fjords.jpg",
+    "views": 198,
+    "published_at": "2025-01-08 09:00:00",
+    "categories": [
+      "europe",
+      "nature"
+    ]
+  },
+  {
+    "title": "Plitvice Lakes",
+    "description": "Каскадные озёra Хорvatии.",
+    "body": "<p>Национальный парк Plitvice — жемчужина Хорvatии и один из красивейших природных объектов Европы. Шестнадцать каскадных озёр соединены водопадами и деревянными дорожками — прогулка занимает от четырёх до восьми часов. Приходите к открытию: утренний свет и меньше туристов делают маршрут комfortнее. Upper lakes спокойнее, lower lakes — самые фотogenic. Купаться нельзя — это заповедник, уважайте правила. Plitvice особенно хорош весной и осенью, когда вода бирюзовая, а листва добавляет цвет.</p>",
+    "image": "/uploads/plitvice.jpg",
+    "views": 227,
+    "published_at": "2025-01-15 10:30:00",
+    "categories": [
+      "europe",
+      "nature"
+    ]
+  },
+  {
+    "title": "Amazon rainforest",
+    "description": "Джунгли и река.",
+    "body": "<p>Amazon — крупнейшие тропические леса планеты и must для любителей дикой природы. Базируйтесь в lodge с гидом — самостоятельные прогулки опасны из-за диких животных и сложной навиgaции. Ранние утренние и ночные excursions показывают разную жизнь джунглей: birds, monkeys, caimans. Река — главная транспортная артерия: canoe trips тихие и позволяют подъехать ближе к wildlife. Repellent, длинная одежда и прививка от yellow fever — часть подготовки. Amazon меняет представление о масштабе природы навсегда.</p>",
+    "image": "/uploads/amazon.jpg",
+    "views": 256,
+    "published_at": "2025-01-22 11:00:00",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "title": "Yellowstone National Park",
+    "description": "Geysers и bison.",
+    "body": "<p>Yellowstone — первый национальный парк Аmerики и один из лучших places для наблюдения за wildlife. Old Faithful — самый известный geyser, но Grand Prismatic Spring ещё более впечатляет по цвету. Lamar Valley на рассвете — лучший шанс увидеть bison, wolves и elk. Держите дистанцию от животных — правила строгие, штрафы реальные. Парк огромный, distances большие — планируйте маршрут по loop road на 2–3 дня. Yellowstone сочетает геотermy, горы и prairies в одном месте.</p>",
+    "image": "/uploads/yellowstone.jpg",
+    "views": 285,
+    "published_at": "2025-01-29 08:45:00",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "title": "Banff и Lake Louise",
+    "description": "Canadian Rockies.",
+    "body": "<p>Banff — сердце Canadian Rockies и один из самых фотogenic corners природы в Аmerике. Lake Louise с turquoise водой и Victoria Glacier — открытка, но crowded к полудню. Приходите на рассvet или после 17:00 — parking и тропы свободнее. Moraine Lake ещё красивее, но access ограничен shuttle — бронируйте заранее. Johnston Canyon, Sulphur Mountain и hot springs дополняют программу. Жильё в Banff бронируйте за полгода — парк популярен круглый год.</p>",
+    "image": "/uploads/banff.jpg",
+    "views": 314,
+    "published_at": "2025-02-05 14:00:00",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "title": "Mount Fuji и Five Lakes",
+    "description": "Fujisan и сезон восхождения.",
+    "body": "<p>Fujisan — sacred symbol Японии и один из самых узнаваемых natural landmarks Азии. Район Five Lakes — лучшая база: Kawaguchiko удobен по транспорту и видам. Подъём на Fuji возможен только летом — сезон короткий, huts бронируют заранее. Даже без ascent вид с озера на рассvet — уже достижение. Chureito Pagoda с Fuji на фоне — классический кадр, приходите рано. Гора часто в облаках — закладывайте несколько попыток увидеть её полностью.</p>",
+    "image": "/uploads/mount-fuji.jpg",
+    "views": 343,
+    "published_at": "2025-02-12 16:20:00",
+    "categories": [
+      "asia",
+      "nature"
+    ]
+  },
+  {
+    "title": "Galápagos Islands",
+    "description": "Marine iguanas и снорклинг.",
+    "body": "<p>Galápagos — уникальный archipelago у берегов Ecuador, где evolution можно наблюдать вживую. Marine iguanas, giant tortoises и fearless birds — wildlife не боится людей. Посещение только с licensed operators — правила строгие для защиты ecosystem. Snorkeling с sea lions и turtles — highlight любого cruise. Сухой сезон June–December, тёpлый December–May — выбор зависит от preferences. Galápagos дорогие, но это одно из немногих places, где природа остаётся главным хозяином.</p>",
+    "image": "/uploads/galapagos.jpg",
+    "views": 372,
+    "published_at": "2025-02-19 07:30:00",
+    "categories": [
+      "americas",
+      "nature",
+      "beach"
+    ]
+  },
+  {
+    "title": "Swiss Alps: Jungfrau",
+    "description": "Горные поезда и Jungfraujoch.",
+    "body": "<p>Швейцарские Альпы — эталон горной природы и инфраструктуры в heart of Europe. Jungfraujoch — «Top of Europe» — поезд поднимает на 3454 m без альpinist skills. Swiss Travel Pass выгоден, если планируете несколько поездов и museums. Interlaken — удобная база между Thun и Brienz lakes. Погода в горах меняется быстро — check forecast перед подъёмом. Даже без skiing вид на Eiger, Mönch и Jungfrau захватывает дух.</p>",
+    "image": "/uploads/swiss-alps.jpg",
+    "views": 401,
+    "published_at": "2025-02-26 12:15:00",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "title": "Atacama Desert",
+    "description": "Пустыня и звёздное неbo.",
+    "body": "<p>Atacama — самая сухая пустыня мира и paradise для любителей astrophotography и surreal landscapes. San Pedro de Atacama — база: маленький oasis среди salt flats и red rocks. Valle de la Luna на закате — landscapes как на другой planet. Ночью туры на observatories показывают Milky Way без light pollution. Высота 2400 m — пейте воду и acclimatize перед active days. Atacama сочетает desert, geysers и flamingo lagoons в компактном радиусе.</p>",
+    "image": "/uploads/atacama.jpg",
+    "views": 430,
+    "published_at": "2025-03-05 09:40:00",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "title": "Kruger safari",
+    "description": "Big Five в Южной Afrikе.",
+    "body": "<p>Kruger — один из лучших safari parks Африки, где Big Five встречаются в natural habitat. Game drives на рассвете и перед закатом — когда animals наиболее active. Self-drive возможен — дороги хорошие, maps понятные, но guide увеличивает шансы увидеть leopards. Останавливайтесь в rest camps внутри парка — gates открываются strict по schedule. Binoculars, neutral clothing и терпение — ключ к хорошему safari. Kruger доступнее многих private reserves, но впечатления не меньше.</p>",
+    "image": "/uploads/kruger.jpg",
+    "views": 459,
+    "published_at": "2025-03-12 18:00:00",
+    "categories": [
+      "nature"
+    ]
+  },
+  {
+    "title": "Dalmatian coast",
+    "description": "Dubrovnik, Split и Hvar.",
+    "body": "<p>Dalmatian coast — жемчужина Adriatic и один из лучших beach routes Европы. Dubrovnik — walled city из Game of Thrones: стены, море и marble streets. Split — Diocletian's Palace вплетён в modern city, атмосfera живая. Ferry между islands — Hvar, Brač, Korčula — позволяет комбинировать history и sea. Летом бронируйте ferries и hotels заранее — coast переполняется. Свежие seafood, olive oil и вино — гastronomic bonus к пейзажам.</p>",
+    "image": "/uploads/croatia.jpg",
+    "views": 228,
+    "published_at": "2025-01-08 09:00:00",
+    "categories": [
+      "europe",
+      "beach"
+    ]
+  },
+  {
+    "title": "Algarve: скальные пляжи",
+    "description": "Cliff beaches Портуgalии.",
+    "body": "<p>Algarve — юг Портуgalии с dramatic cliff beaches и мягким Atlantic. Benagil Cave — icon: kayak tour или boat внутрь grotto с hole в ceiling. Praia da Marinha регулярно в top lists лучших beaches Европы. Закаты здесь длинные и золотые — ideal для dinner у моря. Off-season (spring, autumn) — меньше tourists, ocean ещё холодный, но прогулки отличные. Algarve сочетает beach, cliffs и portuguese hospitality.</p>",
+    "image": "/uploads/algarve.jpg",
+    "views": 257,
+    "published_at": "2025-01-15 10:30:00",
+    "categories": [
+      "europe",
+      "beach"
+    ]
+  },
+  {
+    "title": "Maldives: overwater villas",
+    "description": "Рифы и snorkeling.",
+    "body": "<p>Maldives — ultimate beach destination с overwater villas над Indian Ocean. Каждый resort — отдельный island: privacy, reefs и turquoise lagoon из окна. Snorkeling у house reef часто лучше organized tours — turtles и rays прямо у bungalows. Май–октябрь — wet season, но цены ниже и reefs still beautiful. Transfer seaplane или speedboat — часть adventure, закладывайте time. Maldives — про slow pace, sea и disconnect от mainland rush.</p>",
+    "image": "/uploads/maldives.jpg",
+    "views": 286,
+    "published_at": "2025-01-22 11:00:00",
+    "categories": [
+      "asia",
+      "beach"
+    ]
+  },
+  {
+    "title": "Zanzibar",
+    "description": "Белый песок и Stone Town.",
+    "body": "<p>Zanzibar — spice island у берегов Africa с white sand и Stone Town heritage. Stone Town — UNESCO: narrow streets, carved doors и arabic-indian architecture. Spice tour показывает, откуда берутся vanilla, cloves и cinnamon. East coast — long beaches для swimming, north — lively resorts. Уважайте local customs: modest clothing вне beach zones. Zanzibar сочетает beach, history и flavors в одном compact destination.</p>",
+    "image": "/uploads/zanzibar.jpg",
+    "views": 315,
+    "published_at": "2025-01-29 08:45:00",
+    "categories": [
+      "beach"
+    ]
+  },
+  {
+    "title": "Barbados: Caribbean surf",
+    "description": "East coast waves.",
+    "body": "<p>Barbados — Caribbean island, где surf на east coast и calm beaches на west coexist. Soup Bowl на Bathsheba — legendary wave для experienced surfers. West coast — Carlisle Bay, snorkeling с turtles и relaxed resorts. Rum distilleries и fish fry в Oistins — Friday night tradition. Island compact — можно объехать за day на car. Barbados безопаснее многих Caribbean neighbors и подходит для first beach trip.</p>",
+    "image": "/uploads/barbados.jpg",
+    "views": 344,
+    "published_at": "2025-02-05 14:00:00",
+    "categories": [
+      "beach"
+    ]
+  },
+  {
+    "title": "Seychelles",
+    "description": "Anse Source d'Argent.",
+    "body": "<p>Seychelles — archipelago в Indian Ocean с beaches, которые выглядят unreal. Anse Source d'Argent на La Digue — granite boulders, shallow water и palm trees. La Digue лучше на bicycle — cars minimal, pace slow. Mahé для hiking в Morne Seychellois и capital Victoria. Snorkeling и diving на reefs круглый год — visibility отличная. Seychelles luxury и expensive, но nature здесь действительно exceptional.</p>",
+    "image": "/uploads/seychelles.jpg",
+    "views": 373,
+    "published_at": "2025-02-12 16:20:00",
+    "categories": [
+      "beach"
+    ]
+  },
+  {
+    "title": "Gold Coast, Australia",
+    "description": "Серф и SkyPoint.",
+    "body": "<p>Gold Coast — серф capital Australia с endless beaches и skyline high-rises. Surfers Paradise — tourist hub, но waves и sand качественные. Burleigh Heads и Coolangatta — local favorites с меньшими crowds. SkyPoint даёт view на coast от 230 m — sunset worth it. SPF 50 обязателен: sun здесь intense, burn быстрый. Gold Coast — beach, theme parks и laid-back Australian vibe в одном package.</p>",
+    "image": "/uploads/gold-coast.jpg",
+    "views": 402,
+    "published_at": "2025-02-19 07:30:00",
+    "categories": [
+      "beach"
+    ]
+  },
+  {
+    "title": "Mykonos: windmills",
+    "description": "Cyclades и nightlife.",
+    "body": "<p>Mykonos — icon Cyclades с windmills, white houses и legendary nightlife. Little Venice — bars на edge воды, лучший sunset на island. Windmills на hill — classic photo spot, особенно golden hour. Day trips на Delos — birthplace Apollo, archaeological site без shade. Летом crowded и дорого — shoulder season комfortнее. Mykonos — beach by day, parties by night, aegean charm always.</p>",
+    "image": "/uploads/mykonos.jpg",
+    "views": 431,
+    "published_at": "2025-02-26 12:15:00",
+    "categories": [
+      "europe",
+      "beach"
+    ]
+  },
+  {
+    "title": "Phu Quoc",
+    "description": "Остров Vietnam.",
+    "body": "<p>Phu Quoc — vietnamese island в Gulf of Thailand с beaches и pepper farms. Long Beach — main strip с resorts и seafood restaurants. Rent scooter — лучший способ explore south и north без tours. Sao Beach и Bai Khem — white sand и calm water для swimming. Night market в Duong Dong — fresh fish и local prices. Phu Quoc растёт быстро, но still quieter чем mainland beach hubs.</p>",
+    "image": "/uploads/phu-quoc.jpg",
+    "views": 460,
+    "published_at": "2025-03-05 09:40:00",
+    "categories": [
+      "asia",
+      "beach"
+    ]
+  },
+  {
+    "title": "Antalya и турецкая riviera",
+    "description": "Kaleiçi и древние руины.",
+    "body": "<p>Antalya — gateway к Turkish Riviera, где sea, antiquity и mountains встречаются на стыке Европы и Азии. Kaleiçi — old town с harbor, minarets и ottoman houses под cliffs. Day trip в Side — roman ruins прямо у beach. Düden waterfalls падают в Mediterranean — unusual sight. Летом coast crowded, spring и autumn ideal для sightseeing и swimming. Antalya — beach, history и Turkish hospitality в одном маршруте.</p>",
+    "image": "/uploads/antalya.jpg",
+    "views": 489,
+    "published_at": "2025-03-12 18:00:00",
+    "categories": [
+      "europe",
+      "asia",
+      "beach"
+    ]
+  }
+]
