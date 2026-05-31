@@ -30,7 +30,7 @@ final class ArticleRepository extends Repository
     }
 
     /**
-     * @return array{items: list<array<string, mixed>>, total: int}
+     * @return array{items: list<Article>, total: int}
      */
     public function findByCategory(
         int $categoryId,
