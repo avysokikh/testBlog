@@ -69,7 +69,6 @@ final class CategoryRepository extends Repository
             $category->articles = $articlesByCategory[$category->id] ?? [];
         }
 
-
         return $categories;
     }
 }

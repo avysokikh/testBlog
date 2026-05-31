@@ -40,4 +40,9 @@ final class Article extends Model
         );
     }
 
+    /** @return list<int> */
+    public function categoryIds(): array
+    {
+        return array_map(fn(Category $category): int => $category->id, $this->categories);
+    }
 }

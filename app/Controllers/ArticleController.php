@@ -4,18 +4,15 @@ declare(strict_types=1);
 
 namespace App\Controllers;
 
-use App\Core\View;
 use App\Repository\ArticleRepository;
 use App\Repository\CategoryRepository;
 
 final class ArticleController extends Controller
 {
-    private CategoryRepository $categoryRepository;
     private ArticleRepository $articleRepository;
 
     protected function init()
     {
-        $this->categoryRepository = new CategoryRepository($this->pdo);
         $this->articleRepository = new ArticleRepository($this->pdo);
     }
 
@@ -28,9 +25,17 @@ final class ArticleController extends Controller
             return;
         }
 
+        $this->articleRepository->attachCategories([$article]);
+
+        $similar = $this->articleRepository->findSimilar(
+            $article,
+            3
+        );
+
         $this->view->render('pages/article.tpl', [
             'page_title' => $article->title,
             'article' => $article,
+            'similar' => $similar,
         ]);
     }
 }

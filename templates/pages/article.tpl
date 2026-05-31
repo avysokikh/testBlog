@@ -19,4 +19,15 @@
             {$article->body nofilter}
         </div>
     </article>
+
+    {if $similar|@count > 0}
+        <section class="similar-block">
+            <h2>Похожие статьи</h2>
+            <div class="articles-grid articles-grid--compact">
+                {foreach $similar as $article}
+                    {include file="components/article_card.tpl" article=$article}
+                {/foreach}
+            </div>
+        </section>
+    {/if}
 {/block}

@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Repository;
 
 use App\Models\Article;
+use App\Models\Category;
 use PDO;
 
 final class ArticleRepository extends Repository
@@ -71,5 +72,80 @@ final class ArticleRepository extends Repository
             'items' => $items,
             'total' => $total,
         ];
+    }
+
+    /**
+     * @param list<Article> $articles
+     */
+    public function attachCategories(array $articles): void
+    {
+        if ($articles === []) {
+            return;
+        }
+
+        $ids = array_map('intval', array_column($articles, 'id'));
+        $placeholders = implode(',', array_fill(0, count($ids), '?'));
+
+        $sql = <<<SQL
+            SELECT ac.article_id, c.*
+            FROM article_category ac
+            INNER JOIN categories c ON c.id = ac.category_id
+            WHERE ac.article_id IN ($placeholders)
+            ORDER BY c.name ASC
+        SQL;
+
+        $stmt = $this->pdo->prepare($sql);
+        $stmt->execute($ids);
+        $rows = $stmt->fetchAll();
+        $grouped = [];
+
+        foreach ($rows as $row) {
+            $articleId = (int) $row['article_id'];
+            $grouped[$articleId][] = $row;
+        }
+
+        foreach ($articles as &$article) {
+            if ($categories = $grouped[(int) $article->id] ?? []) {
+                $categories = array_map(fn(array $row): Category => Category::fromRow($row), $categories);
+                $article->categories = $categories;
+            }
+        }
+        unset($article);
+    }
+
+    /** @return list<Article> */
+    public function findSimilar(Article $article, int $limit): array
+    {
+        $categoryIds = $article->categoryIds();
+        if (! $categoryIds) {
+            return [];
+        }
+
+        $items = [];
+
+        $placeholders = implode(',', array_fill(0, count($categoryIds), '?'));
+
+        $sql = <<<SQL
+            SELECT DISTINCT a.id, a.image, a.title, a.description, a.views, a.published_at
+            FROM articles a
+            INNER JOIN article_category ac ON ac.article_id = a.id
+            WHERE ac.category_id IN ($placeholders)
+              AND a.id != ?
+            ORDER BY RAND() DESC
+            LIMIT ?
+        SQL;
+
+        $params = array_merge($categoryIds, [$article->id, $limit]);
+        $stmt = $this->pdo->prepare($sql);
+        foreach ($params as $index => $value) {
+            $stmt->bindValue($index + 1, $value, PDO::PARAM_INT);
+        }
+        $stmt->execute();
+
+        foreach ($stmt->fetchAll() as $row) {
+            $items[] = Article::fromRow($row);
+        }
+
+        return $items;
     }
 }
