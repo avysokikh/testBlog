@@ -16,6 +16,11 @@
                 <a class="btn btn--outline" href="{$app_url}/category/{$category->slug|escape}">Все статьи</a>
             </header>
 
+            <div class="articles-grid">
+                {foreach $category->articles as $article}
+                    {include file="components/article_card.tpl" article=$article}
+                {/foreach}
+            </div>
         </section>
     {/foreach}
 {/block}

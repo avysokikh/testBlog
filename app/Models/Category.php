@@ -15,6 +15,7 @@ final class Category extends Model
         public string $slug,
         public ?\DateTimeImmutable $publishedAt = null,
         public ?\DateTimeImmutable $createdAt = null,
+        public array $articles = [],
     ) {}
 
     public static function fromRow(array $row): self

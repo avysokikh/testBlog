@@ -13,4 +13,30 @@
         <a class="toolbar__link {if $sort == 'views'}is-active{/if}"
            href="/category/{$category->slug|escape}?sort=views">По просмотрам</a>
     </div>
+
+    {if $articles|@count == 0}
+        <p class="empty-state">В этой категории пока нет статей.</p>
+    {else}
+        <div class="articles-grid">
+            {foreach $articles as $article}
+                {include file="partials/article_card.tpl" article=$article}
+            {/foreach}
+        </div>
+
+        {if $total_pages > 1}
+            <nav class="pagination" aria-label="Пагинация">
+                {if $page > 1}
+                    <a class="pagination__link"
+                       href="/category/{$category->slug|escape}?sort={$sort|escape}&page={$page - 1}">← Назад</a>
+                {/if}
+
+                <span class="pagination__info">Страница {$page} из {$total_pages}</span>
+
+                {if $page < $total_pages}
+                    <a class="pagination__link"
+                       href="/category/{$category->slug|escape}?sort={$sort|escape}&page={$page + 1}">Вперёд →</a>
+                {/if}
+            </nav>
+        {/if}
+    {/if}
 {/block}
