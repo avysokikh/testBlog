@@ -19,7 +19,7 @@
     {else}
         <div class="articles-grid">
             {foreach $articles as $article}
-                {include file="partials/article_card.tpl" article=$article}
+                {include file="components/article_card.tpl" article=$article}
             {/foreach}
         </div>
 
