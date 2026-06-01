@@ -65,8 +65,9 @@ final class CategoryRepository extends Repository
         }
 
         foreach ($categories as $category) {
-            $articlesRepository->attachCategories($articlesByCategory[$category->id]);
-            $category->articles = $articlesByCategory[$category->id] ?? [];
+            $articles = $articlesByCategory[$category->id] ?? [];
+            $articlesRepository->attachCategories($articles);
+            $category->articles = $articles;
         }
     }
 }

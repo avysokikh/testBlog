@@ -45,7 +45,12 @@ final class ArticleRepository extends Repository
             : 'a.published_at DESC';
 
         $countStmt = $this->pdo->prepare(
-            'SELECT COUNT(*) FROM article_category ac WHERE ac.category_id = :category_id'
+            <<<SQL
+            SELECT COUNT(*)
+            FROM article_category ac
+            INNER JOIN {$this->table} a ON a.id = ac.article_id
+            WHERE ac.category_id = :category_id AND a.published_at <= NOW()
+            SQL
         );
         $countStmt->execute(['category_id' => $categoryId]);
         $total = (int) $countStmt->fetchColumn();
@@ -56,7 +61,7 @@ final class ArticleRepository extends Repository
             SELECT a.id, a.image, a.title, a.description, a.views, a.published_at
             FROM {$this->table} a
             INNER JOIN article_category ac ON ac.article_id = a.id
-            WHERE ac.category_id = :category_id AND published_at <= NOW()
+            WHERE ac.category_id = :category_id AND a.published_at <= NOW()
             ORDER BY $orderBy
             LIMIT :limit OFFSET :offset
         SQL;

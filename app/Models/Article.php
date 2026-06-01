@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App\Models;
 
+use App\Support\PlainText;
+
 final class Article extends Model
 {
     public static string $table = 'articles';
@@ -29,11 +31,11 @@ final class Article extends Model
         return new self(
             id: (int) $row['id'],
             image: $row['image'] ?? '',
-            title: $row['title'],
-            description: $row['description'],
+            title: PlainText::sanitize($row['title']),
+            description: PlainText::sanitize($row['description']),
             views: (int) ($row['views'] ?? 0),
             publishedAt: new \DateTimeImmutable($row['published_at']),
-            body: $row['body'] ?? '',
+            body: PlainText::sanitize($row['body'] ?? ''),
             createdAt: isset($row['created_at'])
                 ? new \DateTimeImmutable($row['created_at'])
                 : null,

@@ -23,7 +23,7 @@
         </header>
 
         <div class="article-full__body">
-            {$article->body nofilter}
+            {$article->body|escape|nl2br}
         </div>
     </article>
 

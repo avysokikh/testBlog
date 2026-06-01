@@ -19,7 +19,7 @@ final readonly class Router
         $path = rtrim($path, '/') ?: '/';
 
         $view = new View($this->config['smarty'], $this->config['app']['url']);
-        $pdo = new DB()->connect($this->config['db']);
+        $pdo = DB::connect($this->config['db']);
 
         if ($method !== 'GET') {
             new NotFoundController($view)->show();
