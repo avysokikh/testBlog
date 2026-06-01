@@ -1,3 +1,6 @@
+Note: some work has been delegated to AI agent - AI usage logged in commits comments.
+https://github.com/avysokikh/testBlog/commits/main/
+
 # Test Blog
 
 Небольшой travel-блог на PHP 8.4, MySQL и шаблонах Smarty.
